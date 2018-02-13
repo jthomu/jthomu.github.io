@@ -8,7 +8,7 @@ oriented = function(e) {
             compassHeading = e.alpha;
         }
 //&& is "and", while || is "or"
-        if(compassHeading > 315 || compassHeading < 45){
+        if(compassHeading > 315 || compassHeading < 45) {
                 text_area.textContent = compassHeading;
         }
         
