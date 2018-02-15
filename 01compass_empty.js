@@ -21,7 +21,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
-                text_area.textContent = "unenthused groupie: unoriginal music for unoriginal people. unenthused groupie is Alpha and Omega, the titanium zombie god of the post-rave, and progenator of the most teethgrindest tunes in the fucking game. unenthused groupie is a corperation engaged in pop cultural production. Hail Atomic Sex Kitten! Hail A Complex Human Person!";
+                text_area.textContent = "unenthused groupie: unoriginal music for unoriginal people. unenthused groupie is Alpha and Omega, the titanium zombie god of the post-rave, and progenator of the most teeth-grindest tunes in the fucking game. unenthused groupie is a corperation engaged in pop cultural production. Hail Atomic Sex Kitten! Hail A Complex Human Person!";
         }
         
          
