@@ -17,7 +17,7 @@ oriented = function(e) {
         }
 
         if(compassHeading >= 135 && compassHeading < 225) {
-                text_area.textContent = "Our Research & Development Depart will be exploring live performing options as well as recording possibilities including but not limited to 3D printing, laser cutting, international performing, live coding for sound, and neural network based composition. ";
+                text_area.textContent = "Our Research & Development Department will be exploring live performing options as well as recording possibilities including but not limited to 3D printing, laser cutting, international performing, live coding for sound, and neural network based composition. ";
         }
 
         if(compassHeading >= 225 && compassHeading < 315) {
