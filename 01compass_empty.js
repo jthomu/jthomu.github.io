@@ -8,45 +8,25 @@ oriented = function(e) {
             compassHeading = 360 - e.alpha;
         }
 //&& is "and", while || is "or"
-        if(compassHeading > 315 || compassHeading < 0) {
-                text_area.textContent = "But";
-        }
 
-        if(compassHeading >= 0 && compassHeading < 45) {
-                text_area.textContent = "if";
-        }
-
-        if(compassHeading >= 45 && compassHeading < 90) {
-                text_area.textContent = "thats the way";
-        }
-
-        if(compassHeading >= 90 && compassHeading < 135) {
-                text_area.textContent = "its";
-        }
-
-        if(compassHeading >= 135 && compassHeading < 180) {
-                text_area.textContent = "gotta be";
-        }
-
-        if(compassHeading >= 180 && compassHeading < 225) {
-                text_area.textContent = "then thats";
-        }
-
-        if(compassHeading >= 225 && compassHeading < 270) {
-                text_area.textContent = "the way";
-        }
-
-        if(compassHeading >= 270 && compassHeading < 300) {
-                text_area.textContent = "its";
-        }
-
-        if(compassHeading >= 300 && compassHeading < 315) {
-                text_area.textContent = "gotta be";
+        if(compassHeading > 315 || compassHeading < 45){
+                text_area.textContent = "Rooted in the earth like aspen trees";
         }
         
-         
+        if(compassHeading >= 45 && compassHeading < 135){
+                text_area.textContent = "cold quiet wispy snow on the ground";
+        }
+        
+        if(compassHeading >= 135 && compassHeading < 225){
+                text_area.textContent = "The cows are grazing behind me";
+        }
+
+        if(compassHeading >= 225 && compassHeading < 315){
+                text_area.textContent = "But if thats the way its gotta be then thats the way its gotta be";
+        }
         //calls function to alter content based on heading
        // myOrientation();
+      
     }
 
 //device orientation that can track orientation on space
